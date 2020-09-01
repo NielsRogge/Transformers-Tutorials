@@ -1,0 +1,8 @@
+# Environments
+env/
+
+# Model weights, vocab and configuration files
+model/
+
+# Csv data
+*.csv
