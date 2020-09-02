@@ -1,6 +1,9 @@
 # Environments
 env/
 
+# Ipynb checkpoints
+.ipynb_checkpoints/
+
 # Model weights, vocab and configuration files
 model/
 
