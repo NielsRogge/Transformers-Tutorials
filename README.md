@@ -5,12 +5,12 @@ Hi there!
 This repository contains demos I made with the [Transformers library](https://github.com/huggingface/transformers) by 🤗 HuggingFace.
 
 Currently, it contains the following demos:
-* BERT: 
-  - fine-tuning `BertForTokenClassification` on a named entity recognition (NER) dataset
-* LayoutLM: 
+* BERT ([paper](https://arxiv.org/abs/1810.04805)): 
+  - fine-tuning `BertForTokenClassification` on a named entity recognition (NER) dataset.
+* LayoutLM ([paper](https://arxiv.org/abs/1912.13318)): 
   - fine-tuning `LayoutLMForTokenClassification` on the [FUNSD](https://guillaumejaume.github.io/FUNSD/) dataset
   - fine-tuning `LayoutLMForSequenceClassification` on the [RVL-CDIP](https://www.cs.cmu.edu/~aharley/rvl-cdip/) dataset
-* TAPAS: 
+* TAPAS ([paper](https://arxiv.org/abs/2004.02349)):  
   - fine-tuning `TapasForQuestionAnswering` on the Microsoft [Sequential Question Answering (SQA)](https://www.microsoft.com/en-us/download/details.aspx?id=54253) dataset
   - evaluating `TapasForSequenceClassification` on the [Table Fact Checking (TabFact)](https://tabfact.github.io/) dataset
 
