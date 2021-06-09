@@ -21,7 +21,7 @@ Currently, it contains the following demos:
 * LUKE ([paper](https://arxiv.org/abs/2010.01057)):
   - fine-tuning `LukeForEntityPairClassification` on a custom relation extraction dataset using PyTorch Lightning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LUKE/Supervised_relation_extraction_with_LukeForEntityPairClassification.ipynb)
 * DETR ([paper](https://arxiv.org/abs/2005.12872)):
-  - performing inference with `DetrForObjectDetection` [![Open In Colab](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/DETR_minimal_example_(with_DetrFeatureExtractor).ipynb)
+  - performing inference with `DetrForObjectDetection` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/DETR_minimal_example_(with_DetrFeatureExtractor).ipynb)
   - fine-tuning `DetrForObjectDetection` on a custom object detection dataset
 
 ... more to come! 🤗 
