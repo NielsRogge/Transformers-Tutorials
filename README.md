@@ -19,6 +19,9 @@ Currently, it contains the following demos:
   - fine-tuning `ViTForImageClassification` on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) using the 🤗 Trainer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/VisionTransformer/Fine_tuning_the_Vision_Transformer_on_CIFAR_10_with_the_%F0%9F%A4%97_Trainer.ipynb)
 * LUKE ([paper](https://arxiv.org/abs/2010.01057)):
   - fine-tuning `LukeForEntityPairClassification` on a custom relation extraction dataset using PyTorch Lightning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LUKE/Supervised_relation_extraction_with_LukeForEntityPairClassification.ipynb)
+* DETR ([paper](https://arxiv.org/abs/2005.12872)):
+  - performing inference with `DetrForObjectDetection`
+  - fine-tuning `DetrForObjectDetection` on a custom object detection dataset
 
 If you have any questions regarding these demos, feel free to open an issue on this repository.
 
