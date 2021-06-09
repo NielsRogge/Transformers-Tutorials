@@ -28,4 +28,4 @@ Currently, it contains the following demos:
 
 If you have any questions regarding these demos, feel free to open an issue on this repository.
 
-Btw, I was also the main contributor to add the Vision Transformer (ViT) by Google AI, Data-efficient Image Transformers (DeiT) by Facebook AI, TAbular Parsing (TAPAS) by Google AI and LUKE by Studio Ousia to the library, so all of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
+Btw, I was also the main contributor to add the Vision Transformer (ViT) by Google AI, Data-efficient Image Transformers (DeiT) by Facebook AI, TAbular PArSing (TAPAS) by Google AI, LUKE by Studio Ousia and DEtection TRansformers (DETR) by Facebook AI to the library, so all of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
