@@ -26,9 +26,20 @@ Currently, it contains the following demos:
   - evaluating `DetrForObjectDetection` on the COCO detection 2017 validation set [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/Evaluating_DETR_on_COCO_validation_2017.ipynb)
   - performing inference with `DetrForSegmentation` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/DETR_panoptic_segmentation_minimal_example_(with_DetrFeatureExtractor).ipynb)
   - fine-tuning `DetrForSegmentation` on COCO panoptic 2017 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/Fine_tuning_DetrForSegmentation_on_custom_dataset_end_to_end_approach.ipynb)
+* T5 ([paper](https://arxiv.org/abs/1910.10683)):
+  - fine-tuning `T5ForConditionalGeneration` on a Dutch summarization dataset on TPU using HuggingFace Accelerate [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/tree/master/T5)
 
 ... more to come! 🤗 
 
 If you have any questions regarding these demos, feel free to open an issue on this repository.
 
-Btw, I was also the main contributor to add the Vision Transformer (ViT) by Google AI, Data-efficient Image Transformers (DeiT) by Facebook AI, TAbular PArSing (TAPAS) by Google AI, LUKE by Studio Ousia and DEtection TRansformers (DETR) by Facebook AI to the library, so all of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
+Btw, I was also the main contributor to add the following algorithms to the library:
+- Vision Transformer (ViT) by Google AI
+- Data-efficient Image Transformers (DeiT) by Facebook AI
+- TAbular PArSing (TAPAS) by Google AI
+- LUKE by Studio Ousia
+- DEtection TRansformers (DETR) by Facebook AI
+- CANINE by Google AI
+- BEiT By Microsoft Research 
+
+All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
