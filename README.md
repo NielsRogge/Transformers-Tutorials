@@ -48,6 +48,6 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - DEtection TRansformers (DETR) by Facebook AI
 - CANINE by Google AI
 - BEiT by Microsoft Research 
-- LayoutLMv2 by Microsoft Research 
+- LayoutLMv2 (and LayoutXLM) by Microsoft Research 
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
