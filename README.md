@@ -43,6 +43,8 @@ Currently, it contains the following demos:
   - fine-tuning `CanineForSequenceClassification` on IMDb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/CANINE/Fine_tune_CANINE_on_IMDb_(movie_review_binary_classification).ipynb)
 * GPT-J-6B ([repository](https://github.com/kingoflolz/mesh-transformer-jax)):
   - performing inference with `GPTJForCausalLM` to illustrate few-shot learning and code generation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GPT-J-6B/Inference_with_GPT_J_6B.ipynb)
+* TrOCR ([repository](https://github.com/microsoft/unilm/tree/master/trocr)):
+  - performing inference with `TrOCR` to illustrate optical character recognition with Transformers, as well as making a Gradio demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Inference_with_TrOCR_%2B_Gradio_demo.ipynb)
 
 ... more to come! 🤗 
 
@@ -56,6 +58,7 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - DEtection TRansformers (DETR) by Facebook AI
 - CANINE by Google AI
 - BEiT by Microsoft Research 
-- LayoutLMv2 (and LayoutXLM) by Microsoft Research 
+- LayoutLMv2 (and LayoutXLM) by Microsoft Research
+- TrOCR by Microsoft Research 
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
