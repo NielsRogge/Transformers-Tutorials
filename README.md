@@ -45,6 +45,8 @@ Currently, it contains the following demos:
   - performing inference with `GPTJForCausalLM` to illustrate few-shot learning and code generation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GPT-J-6B/Inference_with_GPT_J_6B.ipynb)
 * TrOCR ([repository](https://github.com/microsoft/unilm/tree/master/trocr)):
   - performing inference with `TrOCR` to illustrate optical character recognition with Transformers, as well as making a Gradio demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Inference_with_TrOCR_%2B_Gradio_demo.ipynb)
+  - fine-tuning `TrOCR` on the IAM dataset using the Seq2SeqTrainer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb)
+  - evaluating `TrOCR` on the IAM test set [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Evaluating_TrOCR_base_handwritten_on_the_IAM_test_set.ipynb)
 
 ... more to come! 🤗 
 
@@ -60,5 +62,6 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - BEiT by Microsoft Research 
 - LayoutLMv2 (and LayoutXLM) by Microsoft Research
 - TrOCR by Microsoft Research 
+- SegFormer by NVIDIA
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
