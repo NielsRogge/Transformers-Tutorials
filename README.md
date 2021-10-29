@@ -2,7 +2,7 @@
 
 Hi there!
 
-This repository contains demos I made with the [Transformers library](https://github.com/huggingface/transformers) by 🤗 HuggingFace.
+This repository contains demos I made with the [Transformers library](https://github.com/huggingface/transformers) by 🤗 HuggingFace. Currently, all of them are implemented in PyTorch.
 
 NOTE: if you are not familiar with HuggingFace and/or Transformers, I highly recommend to check out our [free course](https://huggingface.co/course/chapter1), which introduces you to several Transformer architectures (such as BERT, GPT-2, T5, BART, etc.), as well as an overview of the HuggingFace libraries, including [Transformers](https://github.com/huggingface/transformers), [Tokenizers](https://github.com/huggingface/tokenizers), [Datasets](https://github.com/huggingface/datasets), [Accelerate](https://github.com/huggingface/accelerate) and the [hub](https://huggingface.co/).
 
@@ -66,3 +66,58 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - SegFormer by NVIDIA
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
+
+## Training frameworks
+Regarding fine-tuning Transformer models, there are a few options:
+- using native PyTorch. This is the most basic way to train a model, and requires the user to manually write the training loop. The advantage is that this is very easy to debug. The disadvantage is that one needs to implement training him/herself, such as setting the model in the appropriate mode (`model.train()`/`model.eval()`), handle device placement (`model.to(device)`), etc. A typical training loop in PyTorch looks as follows (inspired by [this great PyTorch intro tutorial]()):
+
+```python
+import torch
+
+model = ...
+
+# I almost always use a learning rate of 5e-5 when fine-tuning Transformer based models
+optimizer = torch.optim.Adam(model.parameters(), lr=5-e5)
+
+# put model on GPU, if available
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+
+for epoch in range(epochs):
+    model.train()
+    train_loss = 0.0
+    for batch in train_dataloader:
+        # put batch on device
+        batch = {k:v.to(device) for k,v in batch.items()}
+        
+        # forward pass
+        outputs = model(**batch)
+        loss = outputs.loss
+        
+        train_loss += loss.item()
+        
+        loss.backward()
+        optimizer.step()
+        optimizer.zero_grad()
+
+    print("Loss after epoch {epoch}:", train_loss/len(train_dataloader))
+    
+    model.eval()
+    val_loss = 0.0
+    with torch.no_grad():
+        for batch in eval_dataloader:
+            # put batch on device
+            batch = {k:v.to(device) for k,v in batch.items()}
+            
+            # forward pass
+            outputs = model(**batch)
+            loss = outputs.logits
+            
+            val_loss += loss.item()
+                  
+    print("Validation loss after epoch {epoch}:", val_loss/len(eval_dataloader))
+```
+
+- [PyTorch Lightning (PL)](https://www.pytorchlightning.ai/). PyTorch Lightning is a framework that automates the training loop written above, by abstracting it away in a Trainer object. Users don't need to write the training loop themselves anymore, instead they can just do `trainer = Trainer()` and then `trainer.fit(model)`. The advantage is that you can start training models very quickly (hence the name lightning), as all training-related code is handled by the `Trainer` object. The disadvantage is that it may be more difficult to debug your model, as the training and evaluation is now abstracted away.
+- [HuggingFace Trainer](https://huggingface.co/transformers/main_classes/trainer.html). The HuggingFace Trainer API can be seen as a framework similar to PyTorch Lightning in the sense that it also abstracts the training away using a Trainer object. However, contrary to PyTorch Lightning, it is not meant not be a general framework. Rather, it is made especially for fine-tuning Transformer-based models available in the HuggingFace Transformers library. The Trainer also has an extension called `Seq2SeqTrainer` for encoder-decoder models, such as BART, T5 and the `EncoderDecoderModel` classes. Note that all example scripts of the Transformers library make use of the Trainer.
+- [HuggingFace Accelerate](https://github.com/huggingface/accelerate): Accelerate is a new project, that is made for people who still want to write their own training loop (as shown above), but would like to make it work automatically irregardless of the hardware (i.e. multiple GPUs, TPU pods, mixed precision, etc.).
