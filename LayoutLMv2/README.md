@@ -14,3 +14,5 @@ I've implemented LayoutLMv2 (and LayoutXLM) in the same way as other models in t
 The full documentation (which also includes tips on how to use `LayoutLMv2Processor`) can be found [here](https://huggingface.co/transformers/model_doc/layoutlmv2.html).
 
 The models on the hub can be found [here](https://huggingface.co/models?search=layoutlmv2).
+
+Note that there's also a Gradio demo available for LayoutLMv2, hosted as a HuggingFace Space [here](https://huggingface.co/spaces/nielsr/LayoutLMv2-FUNSD).
