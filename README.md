@@ -40,6 +40,11 @@ Currently, it contains the following demos:
 * SegFormer ([paper](https://arxiv.org/abs/2105.15203)):
   - performing inference with `SegformerForSemanticSegmentation` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/SegFormer/Segformer_inference_notebook.ipynb)
   - fine-tuning `SegformerForSemanticSegmentation` on custom data using native PyTorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/SegFormer/Fine_tune_SegFormer_on_custom_dataset.ipynb)
+* Perceiver IO ([paper](https://arxiv.org/abs/2107.14795)):
+  - showcasing masked language modeling and image classification with the Perceiver [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Perceiver_for_masked_language_modeling_and_image_classification.ipynb)
+  - fine-tuning the Perceiver for image classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Fine_tune_the_Perceiver_for_image_classification.ipynb)
+  - predicting optical flow between a pair of images with `PerceiverForOpticalFlow`[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Perceiver_for_Optical_Flow.ipynb)
+  - auto-encoding a video (images, audio, labels) with `PerceiverForMultimodalAutoencoding` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Perceiver_for_Multimodal_Autoencoding.ipynb)
 * T5 ([paper](https://arxiv.org/abs/1910.10683)):
   - fine-tuning `T5ForConditionalGeneration` on a Dutch summarization dataset on TPU using HuggingFace Accelerate [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/tree/master/T5)
   - fine-tuning `T5ForConditionalGeneration` (CodeT5) for Ruby code summarization using PyTorch Lightning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/T5/Fine_tune_CodeT5_for_generating_docstrings_from_Ruby_code.ipynb)
@@ -72,6 +77,7 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - TrOCR by Microsoft Research 
 - SegFormer by NVIDIA
 - ImageGPT by OpenAI
+- Perceiver by Deepmind
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
 
