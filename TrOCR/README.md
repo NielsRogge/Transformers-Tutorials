@@ -8,3 +8,5 @@ In this directory, you can find several notebooks that illustrate how to use Mic
 I also made a notebook that illustrates how to evaluate a TrOCR checkpoint in terms of CER (character-error rate) on the test set of the [IAM Handwriting Database](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database).
 
 All models can be found on the [hub](https://huggingface.co/models?search=trocr).
+
+Note that there's also a Gradio demo available for TrOCR, hosted as a HuggingFace Space [here](https://huggingface.co/spaces/nielsr/TrOCR-handwritten).
