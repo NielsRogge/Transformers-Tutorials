@@ -1,5 +1,5 @@
 # Perceiver IO notebooks
-In this directory, you can find several notebooks that illustrate how to use Deepmind's [Perceiver IO]((https://arxiv.org/abs/2107.14795)) both for fine-tuning on custom data as well as inference. They are based on the [official Colab notebooks](https://github.com/deepmind/deepmind-research/tree/master/perceiver/colabs) released by Deepmind, as well as some additional notebooks which I believe will be helpful for the community.
+In this directory, you can find several notebooks that illustrate how to use Deepmind's [Perceiver IO](https://arxiv.org/abs/2107.14795) both for fine-tuning on custom data as well as inference. They are based on the [official Colab notebooks](https://github.com/deepmind/deepmind-research/tree/master/perceiver/colabs) released by Deepmind, as well as some additional notebooks which I believe will be helpful for the community.
 
 The notebooks which are available are:
 - showcasing masked language modeling and image classification with the Perceiver [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Perceiver_for_masked_language_modeling_and_image_classification.ipynb)
@@ -8,7 +8,7 @@ The notebooks which are available are:
 - predicting optical flow between a pair of images with `PerceiverForOpticalFlow`[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Perceiver_for_Optical_Flow.ipynb)
 - auto-encoding a video (images, audio, labels) with `PerceiverForMultimodalAutoencoding` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Perceiver_for_Multimodal_Autoencoding.ipynb)
 
-Note that these are just a few examples of what you can do with the Perceiver. There are many more possibilities with it, such as question-answering, named-entity recognition on text, object detection on images, ...
+Note that these are just a few examples of what you can do with the Perceiver. There are many more possibilities with it, such as question-answering, named-entity recognition on text, object detection on images, audio classification,... Basically, anything you can do with BERT/ViT/Wav2Vec2/DETR/etc., you can do with the Perceiver too.
 
 The [Perceiver](https://arxiv.org/abs/2103.03206) and its follow-up variant, [Perceiver IO](https://arxiv.org/abs/2107.14795) by Google Deepmind are one of my favorite works of 2021.
 
