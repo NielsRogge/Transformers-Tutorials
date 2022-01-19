@@ -57,6 +57,8 @@ Currently, it contains the following demos:
   - fine-tuning `TrOCR` on the IAM dataset using the Seq2SeqTrainer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb)
   - fine-tuning `TrOCR` on the IAM dataset using native PyTorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_native_PyTorch.ipynb)
   - evaluating `TrOCR` on the IAM test set [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Evaluating_TrOCR_base_handwritten_on_the_IAM_test_set.ipynb)
+* ViTMAE ([paper](https://arxiv.org/abs/2111.06377)):
+  - reconstructing pixel values with `ViTMAEForPreTraining` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/ViTMAE/ViT_MAE_visualization_demo.ipynb)
 * Vision Transformer ([paper](https://arxiv.org/abs/2010.11929)):
   - performing inference with `ViTForImageClassification` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/VisionTransformer/Quick_demo_of_HuggingFace_version_of_Vision_Transformer_inference.ipynb)
   - fine-tuning `ViTForImageClassification` on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) using PyTorch Lightning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/VisionTransformer/Fine_tuning_the_Vision_Transformer_on_CIFAR_10_with_PyTorch_Lightning.ipynb)
@@ -79,6 +81,7 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - SegFormer by NVIDIA
 - ImageGPT by OpenAI
 - Perceiver by Deepmind
+- MAE by Facebook AI
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
 
