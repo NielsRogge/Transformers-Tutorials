@@ -82,6 +82,7 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - ImageGPT by OpenAI
 - Perceiver by Deepmind
 - MAE by Facebook AI
+- ViLT by NAVER AI Lab
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
 
