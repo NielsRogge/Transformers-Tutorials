@@ -11,7 +11,9 @@ Currently, it contains the following demos:
   - fine-tuning `BertForTokenClassification` on a named entity recognition (NER) dataset. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb)
   - fine-tuning `BertForSequenceClassification` for multi-label text classification. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb)
 * CANINE ([paper](https://arxiv.org/abs/2103.06874)):
-  - fine-tuning `CanineForSequenceClassification` on IMDb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/CANINE/Fine_tune_CANINE_on_IMDb_(movie_review_binary_classification).ipynb)
+  - fine-tuning `CanineForSequenceClassification` on IMDb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/CANINE/Fine_tune_CANINE_on_IMDb_(movie_review_binary_classification).ipynb)
+* DiT ([paper](https://arxiv.org/abs/2203.02378)):
+  - performing inference with DiT for document image classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DiT/Inference_with_DiT_(Document_Image_Transformer)_for_document_image_classification.ipynb)
 * DETR ([paper](https://arxiv.org/abs/2005.12872)):
   - performing inference with `DetrForObjectDetection` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/DETR_minimal_example_(with_DetrFeatureExtractor).ipynb)
   - fine-tuning `DetrForObjectDetection` on a custom object detection dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/Fine_tuning_DetrForObjectDetection_on_custom_dataset_(balloon).ipynb)
@@ -77,6 +79,7 @@ If you have any questions regarding these demos, feel free to open an issue on t
 Btw, I was also the main contributor to add the following algorithms to the library:
 - TAbular PArSing (TAPAS) by Google AI
 - Vision Transformer (ViT) by Google AI
+- DINO by Facebook AI
 - Data-efficient Image Transformers (DeiT) by Facebook AI
 - LUKE by Studio Ousia
 - DEtection TRansformers (DETR) by Facebook AI
@@ -89,6 +92,8 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - Perceiver by Deepmind
 - MAE by Facebook AI
 - ViLT by NAVER AI Lab
+- ConvNeXT by Facebook AI
+- DiT By Microsoft Research
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
 
