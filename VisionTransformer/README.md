@@ -7,6 +7,9 @@ This directory contains several notebooks that illustrate how to use Google's [V
 - fine-tuning ViT on CIFAR-10 using HuggingFace's [Trainer](https://huggingface.co/transformers/main_classes/trainer.html)
 - fine-tuning ViT on CIFAR-10 using [PyTorch Lightning](https://www.pytorchlightning.ai/)
 
+There's also the official HuggingFace image classification notebook, which can be found [here](
+https://github.com/huggingface/notebooks/blob/master/examples/image_classification.ipynb).
+
 Note that these notebooks work for any vision model in the library (i.e. any model supported by the `AutoModelForImageClassification` API). You can just replace the checkpoint name
 (like `google/vit-base-patch16-224`) by another one (like `facebook/convnext-tiny-224`)
 
