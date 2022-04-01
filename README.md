@@ -14,6 +14,9 @@ Currently, it contains the following demos:
   - fine-tuning `CanineForSequenceClassification` on IMDb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/CANINE/Fine_tune_CANINE_on_IMDb_(movie_review_binary_classification).ipynb)
 * DiT ([paper](https://arxiv.org/abs/2203.02378)):
   - performing inference with DiT for document image classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DiT/Inference_with_DiT_(Document_Image_Transformer)_for_document_image_classification.ipynb)
+* DPT ([paper](https://arxiv.org/abs/2103.13413)):
+  - performing inference with DPT for monocular depth estimation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DPT/DPT_inference_notebook_(depth_estimation).ipynb)
+  - performing inference with DPT for semantic segmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DPT/DPT_inference_notebook_(semantic_segmentation).ipynb)
 * DETR ([paper](https://arxiv.org/abs/2005.12872)):
   - performing inference with `DetrForObjectDetection` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/DETR_minimal_example_(with_DetrFeatureExtractor).ipynb)
   - fine-tuning `DetrForObjectDetection` on a custom object detection dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/Fine_tuning_DetrForObjectDetection_on_custom_dataset_(balloon).ipynb)
@@ -96,6 +99,8 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - ViLT by NAVER AI Lab
 - ConvNeXT by Facebook AI
 - DiT By Microsoft Research
+- GLPN by KAIST
+- DPT by Intel Labs
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
 
