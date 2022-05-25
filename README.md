@@ -10,10 +10,12 @@ Currently, it contains the following demos:
 * BERT ([paper](https://arxiv.org/abs/1810.04805)): 
   - fine-tuning `BertForTokenClassification` on a named entity recognition (NER) dataset. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb)
   - fine-tuning `BertForSequenceClassification` for multi-label text classification. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb)
+* BEiT ([paper]([https://arxiv.org/abs/2103.06874](https://arxiv.org/abs/2106.08254))):
+  - understanding `BeitForMaskedImageModeling` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BEiT/Understanding_BeitForMaskedImageModeling.ipynb)
 * CANINE ([paper](https://arxiv.org/abs/2103.06874)):
   - fine-tuning `CanineForSequenceClassification` on IMDb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/CANINE/Fine_tune_CANINE_on_IMDb_(movie_review_binary_classification).ipynb)
-* DiT ([paper](https://arxiv.org/abs/2203.02378)):
-  - performing inference with DiT for document image classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DiT/Inference_with_DiT_(Document_Image_Transformer)_for_document_image_classification.ipynb)
+* ConvNeXT ([paper](https://arxiv.org/abs/2201.03545)):
+  - fine-tuning (and performing inference with) `ConvNextForImageClassification` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/ConvNeXT/Fine_tune_ConvNeXT_for_image_classification.ipynb)
 * DPT ([paper](https://arxiv.org/abs/2103.13413)):
   - performing inference with DPT for monocular depth estimation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DPT/DPT_inference_notebook_(depth_estimation).ipynb)
   - performing inference with DPT for semantic segmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DPT/DPT_inference_notebook_(semantic_segmentation).ipynb)
@@ -23,6 +25,8 @@ Currently, it contains the following demos:
   - evaluating `DetrForObjectDetection` on the COCO detection 2017 validation set [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/Evaluating_DETR_on_COCO_validation_2017.ipynb)
   - performing inference with `DetrForSegmentation` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/DETR_panoptic_segmentation_minimal_example_(with_DetrFeatureExtractor).ipynb)
   - fine-tuning `DetrForSegmentation` on COCO panoptic 2017 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DETR/Fine_tuning_DetrForSegmentation_on_custom_dataset_end_to_end_approach.ipynb)
+* DiT ([paper](https://arxiv.org/abs/2203.02378)):
+  - performing inference with DiT for document image classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DiT/Inference_with_DiT_(Document_Image_Transformer)_for_document_image_classification.ipynb)
 * GLPN ([paper](https://arxiv.org/abs/2201.07436)):
   - performing inference with `GLPNForDepthEstimation` to illustrate monocular depth estimation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GLPN/GLPN_inference_(depth_estimation).ipynb)
 * GPT-J-6B ([repository](https://github.com/kingoflolz/mesh-transformer-jax)):
@@ -30,6 +34,8 @@ Currently, it contains the following demos:
 * ImageGPT ([blog post](https://openai.com/blog/image-gpt/)):
   - (un)conditional image generation with `ImageGPTForCausalLM` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/ImageGPT/(Un)conditional_image_generation_with_ImageGPT.ipynb)
   - linear probing with ImageGPT [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/ImageGPT/Linear_probing_with_ImageGPT.ipynb)
+* LUKE ([paper](https://arxiv.org/abs/2010.01057)):
+  - fine-tuning `LukeForEntityPairClassification` on a custom relation extraction dataset using PyTorch Lightning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LUKE/Supervised_relation_extraction_with_LukeForEntityPairClassification.ipynb)
 * LayoutLM ([paper](https://arxiv.org/abs/1912.13318)): 
   - fine-tuning `LayoutLMForTokenClassification` on the [FUNSD](https://guillaumejaume.github.io/FUNSD/) dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutLM/Fine_tuning_LayoutLMForTokenClassification_on_FUNSD.ipynb)
   - fine-tuning `LayoutLMForSequenceClassification` on the [RVL-CDIP](https://www.cs.cmu.edu/~aharley/rvl-cdip/) dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutLM/Fine_tuning_LayoutLMForSequenceClassification_on_RVL_CDIP.ipynb)
@@ -42,20 +48,20 @@ Currently, it contains the following demos:
   - true inference with `LayoutLMv2ForTokenClassification` (when no labels are available) + Gradio demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutLMv2/FUNSD/True_inference_with_LayoutLMv2ForTokenClassification_%2B_Gradio_demo.ipynb)
   - fine-tuning `LayoutLMv2ForTokenClassification` on CORD [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutLMv2/CORD/Fine_tuning_LayoutLMv2ForTokenClassification_on_CORD.ipynb)
   - fine-tuning `LayoutLMv2ForQuestionAnswering` on DOCVQA [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutLMv2/DocVQA/Fine_tuning_LayoutLMv2ForQuestionAnswering_on_DocVQA.ipynb)
-* LUKE ([paper](https://arxiv.org/abs/2010.01057)):
-  - fine-tuning `LukeForEntityPairClassification` on a custom relation extraction dataset using PyTorch Lightning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LUKE/Supervised_relation_extraction_with_LukeForEntityPairClassification.ipynb)
+* LayoutLMv3 ([paper](https://arxiv.org/abs/2204.08387)): 
+  - fine-tuning `LayoutLMv3ForTokenClassification` on the [FUNSD](https://guillaumejaume.github.io/FUNSD/) dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutLMv3/Fine_tune_LayoutLMv3_on_FUNSD_(HuggingFace_Trainer).ipynb)
 * MaskFormer ([paper](https://arxiv.org/abs/2107.06278)):
   - performing inference with `MaskFormer` (both semantic and panoptic segmentation): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/MaskFormer/maskformer_minimal_example(with_MaskFormerFeatureExtractor).ipynb)
   - fine-tuning `MaskFormer` on a custom dataset for semantic segmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/MaskFormer/Fine_tune_MaskFormer_on_custom_dataset.ipynb)
-* SegFormer ([paper](https://arxiv.org/abs/2105.15203)):
-  - performing inference with `SegformerForSemanticSegmentation` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/SegFormer/Segformer_inference_notebook.ipynb)
-  - fine-tuning `SegformerForSemanticSegmentation` on custom data using native PyTorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/SegFormer/Fine_tune_SegFormer_on_custom_dataset.ipynb)
 * Perceiver IO ([paper](https://arxiv.org/abs/2107.14795)):
   - showcasing masked language modeling and image classification with the Perceiver [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Perceiver_for_masked_language_modeling_and_image_classification.ipynb)
   - fine-tuning the Perceiver for image classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Fine_tune_the_Perceiver_for_image_classification.ipynb)
   - fine-tuning the Perceiver for text classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Fine_tune_Perceiver_for_text_classification.ipynb)
   - predicting optical flow between a pair of images with `PerceiverForOpticalFlow`[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Perceiver_for_Optical_Flow.ipynb)
   - auto-encoding a video (images, audio, labels) with `PerceiverForMultimodalAutoencoding` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Perceiver/Perceiver_for_Multimodal_Autoencoding.ipynb)
+* SegFormer ([paper](https://arxiv.org/abs/2105.15203)):
+  - performing inference with `SegformerForSemanticSegmentation` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/SegFormer/Segformer_inference_notebook.ipynb)
+  - fine-tuning `SegformerForSemanticSegmentation` on custom data using native PyTorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/SegFormer/Fine_tune_SegFormer_on_custom_dataset.ipynb)
 * T5 ([paper](https://arxiv.org/abs/1910.10683)):
   - fine-tuning `T5ForConditionalGeneration` on a Dutch summarization dataset on TPU using HuggingFace Accelerate [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/tree/master/T5)
   - fine-tuning `T5ForConditionalGeneration` (CodeT5) for Ruby code summarization using PyTorch Lightning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/T5/Fine_tune_CodeT5_for_generating_docstrings_from_Ruby_code.ipynb)
@@ -79,6 +85,9 @@ Currently, it contains the following demos:
   - performing inference with `ViTForImageClassification` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/VisionTransformer/Quick_demo_of_HuggingFace_version_of_Vision_Transformer_inference.ipynb)
   - fine-tuning `ViTForImageClassification` on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) using PyTorch Lightning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/VisionTransformer/Fine_tuning_the_Vision_Transformer_on_CIFAR_10_with_PyTorch_Lightning.ipynb)
   - fine-tuning `ViTForImageClassification` on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) using the 🤗 Trainer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/VisionTransformer/Fine_tuning_the_Vision_Transformer_on_CIFAR_10_with_the_%F0%9F%A4%97_Trainer.ipynb)
+* YOLOS ([paper](https://arxiv.org/abs/2106.00666)):
+  - fine-tuning `YolosForObjectDetection` on a custom dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/YOLOS/Fine_tuning_YOLOS_for_object_detection_on_custom_dataset_(balloon).ipynb)
+  - inference with `YolosForObjectDetection` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/YOLOS/YOLOS_minimal_inference_example.ipynb)
 
 ... more to come! 🤗 
 
@@ -104,6 +113,8 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - DiT By Microsoft Research
 - GLPN by KAIST
 - DPT by Intel Labs
+- TAPEX by Microsoft Research
+- LayoutLMv3 by Microsoft Research
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
 
