@@ -113,6 +113,7 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - DiT By Microsoft Research
 - GLPN by KAIST
 - DPT by Intel Labs
+- YOLOS by School of EIC, Huazhong University of Science & Technology
 - TAPEX by Microsoft Research
 - LayoutLMv3 by Microsoft Research
 
