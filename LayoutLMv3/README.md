@@ -1,6 +1,14 @@
 # LayoutLMv3 notebooks
 In this directory, you can find notebooks that illustrate how to use LayoutLMv3 both for fine-tuning on custom data as well as inference. 
 
+## Important note
+
+LayoutLMv3 models are capable of getting > 90% F1 on FUNSD. This is thanks to the use of segment position embeddings, as opposed to word-level position embeddings, inspired by [StructuralLM](https://arxiv.org/abs/2105.11210). This means that words belonging to the same "segment" (let's say, an address) get the same bounding box coordinates, and thus the same 2D position embeddings. You can see [here](https://huggingface.co/datasets/nielsr/funsd-layoutlmv3/blob/main/funsd-layoutlmv3.py#L140) how the authors did this for the FUNSD dataset.
+
+So it's always advised to use segment position embeddings over word-level position embeddings.
+
+## Training tips
+
 Note that LayoutLMv3 is identical to LayoutLMv2 in terms of training/inference, except that:
 * images need to be resized and normalized, such that they are `pixel_values` of shape `(batch_size, num_channels, heigth, width)`. The channels need to be in RGB format. This was not the case for LayoutLMv2, which expected the channels in BGR format (due to its Detectron2 visual backbone), and normalized the images internally.
 * tokenization of text is based on RoBERTa, hence byte-level Byte-Pair-Encoding. This in contrast to LayoutLMv2, which used BERT-like WordPiece tokenization.
