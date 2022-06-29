@@ -33,6 +33,8 @@ Currently, it contains the following demos:
   - performing inference with `GLPNForDepthEstimation` to illustrate monocular depth estimation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GLPN/GLPN_inference_(depth_estimation).ipynb)
 * GPT-J-6B ([repository](https://github.com/kingoflolz/mesh-transformer-jax)):
   - performing inference with `GPTJForCausalLM` to illustrate few-shot learning and code generation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GPT-J-6B/Inference_with_GPT_J_6B.ipynb)
+* GroupViT ([repository](https://github.com/NVlabs/GroupViT)):
+  - performing inference with `GroupViTModel` to illustrate zero-shot semantic segmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GroupViT/Inference_with_GroupViT_for_zero_shot_semantic_segmentation.ipynb)
 * ImageGPT ([blog post](https://openai.com/blog/image-gpt/)):
   - (un)conditional image generation with `ImageGPTForCausalLM` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/ImageGPT/(Un)conditional_image_generation_with_ImageGPT.ipynb)
   - linear probing with ImageGPT [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/ImageGPT/Linear_probing_with_ImageGPT.ipynb)
