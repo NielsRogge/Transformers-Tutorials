@@ -125,7 +125,7 @@ All of them were an incredible learning experience. I can recommend anyone to co
 
 ## Data preprocessing
 Regarding preparing your data for a PyTorch model, there are a few options:
-- a native PyTorch dataset + dataloader. This is the standard way to prepare data for a PyTorch model, namely by subclassing `torch.utils.data.Dataset`, and then a creating corresponding `DataLoader` (which is a Python generator that allows to loop over the items of a dataset). When subclassing the `Dataset` class, one needs to implement 3 methods: `__init__`, `__len__` (which returns the number of examples of the dataset) and `__getitem__` (which returns an example of the dataset, given an integer index). Here's an example of creating a basic text classification dataset (assuming one has a CSV that contains 2 columns, namely "text" and "label"):
+- a native PyTorch dataset + dataloader. This is the standard way to prepare data for a PyTorch model, namely by subclassing `torch.utils.data.Dataset`, and then creating a corresponding `DataLoader` (which is a Python generator that allows to loop over the items of a dataset). When subclassing the `Dataset` class, one needs to implement 3 methods: `__init__`, `__len__` (which returns the number of examples of the dataset) and `__getitem__` (which returns an example of the dataset, given an integer index). Here's an example of creating a basic text classification dataset (assuming one has a CSV that contains 2 columns, namely "text" and "label"):
 
 ```python
 from torch.utils.data import Dataset
