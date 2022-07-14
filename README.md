@@ -162,7 +162,7 @@ import pandas as pd
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 df = pd.read_csv("path_to_your_csv")
 
-train_dataset = CustomTrainDataset(df=df tokenizer=tokenizer)
+train_dataset = CustomTrainDataset(df=df, tokenizer=tokenizer)
 ```
 
 Accessing the first example of the dataset can then be done as follows:
@@ -203,8 +203,10 @@ Regarding fine-tuning Transformer models (or more generally, PyTorch models), th
 
 ```python
 import torch
+from transformers import BertForSequenceClassification
 
-model = ...
+# Instantiate pre-trained BERT model with randomly initialized classification head
+model = BertForSequenceClassification.from_pretrained("bert-base-uncased")
 
 # I almost always use a learning rate of 5e-5 when fine-tuning Transformer based models
 optimizer = torch.optim.Adam(model.parameters(), lr=5-e5)
