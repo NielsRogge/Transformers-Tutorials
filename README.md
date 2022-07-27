@@ -211,7 +211,7 @@ from transformers import BertForSequenceClassification
 model = BertForSequenceClassification.from_pretrained("bert-base-uncased")
 
 # I almost always use a learning rate of 5e-5 when fine-tuning Transformer based models
-optimizer = torch.optim.Adam(model.parameters(), lr=5-e5)
+optimizer = torch.optim.Adam(model.parameters(), lr=5e-5)
 
 # put model on GPU, if available
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
