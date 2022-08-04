@@ -79,6 +79,8 @@ Currently, it contains the following demos:
   - fine-tuning `TrOCR` on the IAM dataset using the Seq2SeqTrainer [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_Seq2SeqTrainer.ipynb)
   - fine-tuning `TrOCR` on the IAM dataset using native PyTorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Fine_tune_TrOCR_on_IAM_Handwriting_Database_using_native_PyTorch.ipynb)
   - evaluating `TrOCR` on the IAM test set [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TrOCR/Evaluating_TrOCR_base_handwritten_on_the_IAM_test_set.ipynb)
+* VideoMAE ([paper](https://arxiv.org/abs/2203.12602)):
+  - performing inference with `VideoMAEForVideoClassification` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/VideoMAE/Quick_inference_with_VideoMAE.ipynb)
 * ViLT ([paper](https://arxiv.org/abs/2102.03334)):
   - fine-tuning `ViLT` for visual question answering (VQA) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/ViLT/Fine_tuning_ViLT_for_VQA.ipynb)
   - performing inference with `ViLT` to illustrate visual question answering (VQA) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/ViLT/Inference_with_ViLT_(visual_question_answering).ipynb)
@@ -122,6 +124,7 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - YOLOS by School of EIC, Huazhong University of Science & Technology
 - TAPEX by Microsoft Research
 - LayoutLMv3 by Microsoft Research
+- VideoMAE by Multimedia Computing Group, Nanjing University
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
 
