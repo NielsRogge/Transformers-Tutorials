@@ -1,4 +1,4 @@
-# Donut notebooks
+# Donut 🍩 notebooks
 In this directory, you can find several notebooks that illustrate how to use Donut both for fine-tuning on custom data as well as inference. I've split up the notebooks according to the different downstream datasets:
 
 - CORD (form understanding)
