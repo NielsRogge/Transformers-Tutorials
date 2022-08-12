@@ -14,6 +14,6 @@ The models on the hub can be found [here](https://huggingface.co/models?search=d
 Note that there's also several Gradio demos available for Donut, hosted as HuggingFace Spaces:
 - [DocVQA](https://huggingface.co/spaces/nielsr/donut-docvqa)
 - [RVLCDIP](https://huggingface.co/spaces/nielsr/donut-rvlcdip)
-- [CORD}(https://huggingface.co/spaces/nielsr/donut-cord)
+- [CORD](https://huggingface.co/spaces/nielsr/donut-cord)
 
 Traiing notebooks: coming soon!
