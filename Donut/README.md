@@ -15,5 +15,3 @@ Note that there's also several Gradio demos available for Donut, hosted as Huggi
 - [DocVQA](https://huggingface.co/spaces/nielsr/donut-docvqa)
 - [RVLCDIP](https://huggingface.co/spaces/nielsr/donut-rvlcdip)
 - [CORD](https://huggingface.co/spaces/nielsr/donut-cord)
-
-Traiing notebooks: coming soon!
