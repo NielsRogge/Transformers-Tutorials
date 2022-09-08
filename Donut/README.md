@@ -16,6 +16,6 @@ Note that there's also several Gradio demos available for Donut, hosted as Huggi
 - [RVLCDIP](https://huggingface.co/spaces/nielsr/donut-rvlcdip)
 - [CORD](https://huggingface.co/spaces/nielsr/donut-cord)
 
-# Third-party resources
+## Third-party resources
 
 Also check out this [great blog](https://www.philschmid.de/fine-tuning-donut) by Philipp Schmid on fine-tuning Donut on the SROIE dataset :)
