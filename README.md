@@ -16,6 +16,9 @@ Currently, it contains the following demos:
   - understanding `BeitForMaskedImageModeling` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BEiT/Understanding_BeitForMaskedImageModeling.ipynb)
 * CANINE ([paper](https://arxiv.org/abs/2103.06874)):
   - fine-tuning `CanineForSequenceClassification` on IMDb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/CANINE/Fine_tune_CANINE_on_IMDb_(movie_review_binary_classification).ipynb)
+* Conditional DETR ([paper](https://arxiv.org/abs/2108.06152)):
+  - performing inference with `ConditionalDetrForObjectDetection` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Conditional%20DETR/Run_inference_with_Conditional_DETR.ipynb)
+  - fine-tuning `ConditionalDetrForObjectDetection` on a custom dataset (balloon) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Conditional%20DETR/Fine_tuning_Conditional_DETR_on_custom_dataset_(balloon).ipynb)
 * ConvNeXT ([paper](https://arxiv.org/abs/2201.03545)):
   - fine-tuning (and performing inference with) `ConvNextForImageClassification` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/ConvNeXT/Fine_tune_ConvNeXT_for_image_classification.ipynb)
 * DINO ([paper](https://arxiv.org/abs/2104.14294)):
