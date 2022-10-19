@@ -111,7 +111,8 @@ Currently, it contains the following demos:
 * X-CLIP ([paper](https://arxiv.org/abs/2208.02816)):
   - performing zero-shot video classification with X-CLIP [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/X-CLIP/Video_text_matching_with_X_CLIP.ipynb)
   - zero-shot classifying a YouTube video with X-CLIP [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/X-CLIP/Zero_shot_classify_a_YouTube_video_with_X_CLIP.ipynb)
-
+* Table Transformer ([paper](https://arxiv.org/abs/2110.00061)):
+  - detects table and recognizes table structure on image with table [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Table%20Transformer/Using_Table_Transformer_for_table_detection_and_table_structure_recognition.ipynb)
 ... more to come! 🤗 
 
 If you have any questions regarding these demos, feel free to open an issue on this repository.
