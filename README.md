@@ -144,6 +144,7 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - VideoMAE by Multimedia Computing Group, Nanjing University
 - X-CLIP by Microsoft Research
 - MarkupLM by Microsoft Research
+- Table Transformer by Microsoft Research
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
 
