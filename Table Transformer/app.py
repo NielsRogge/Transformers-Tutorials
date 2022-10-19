@@ -163,7 +163,7 @@ def table_struct_recog(image, THRESHOLD_PROBA):
     feature_extractor = DetrFeatureExtractor(do_resize=True, size=1000, max_size=1000)
     encoding = feature_extractor(image, return_tensors="pt")
 
-    model = DetrForObjectDetection.from_pretrained("microsoft/table-transformer-structure-recognition")
+    model = TableTransformerForObjectDetection.from_pretrained("microsoft/table-transformer-structure-recognition")
     with torch.no_grad():
         outputs = model(**encoding)
 
