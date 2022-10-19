@@ -488,17 +488,19 @@ class TableExtractionPipeline():
 if __name__ == "__main__":
 
     img_name = st.file_uploader("Upload an image with table(s)")
+    st1, st2 = st.columns((1,1))
+    TD_th = st1.slider('Table detection threshold', 0.0, 1.0, 0.6)
+    TSR_th = st2.slider('Table structure recognition threshold', 0.0, 1.0, 0.8)
 
-    padd_top = st.slider('Padding top', 0, 200, 20)
-    padd_left = st.slider('Padding left', 0, 200, 20)
-    padd_right = st.slider('Padding right', 0, 200, 20)
-    padd_bottom = st.slider('Padding bottom', 0, 200, 20)
+    st1, st2, st3, st4 = st.columns((1,1,1,1))
 
+    padd_top = st1.slider('Padding top', 0, 200, 20)
+    padd_left = st2.slider('Padding left', 0, 200, 20)
+    padd_right = st3.slider('Padding right', 0, 200, 20)
+    padd_bottom = st4.slider('Padding bottom', 0, 200, 20)
 
     te = TableExtractionPipeline()
     # for img in image_list:
     if img_name is not None:
-        asyncio.run(te.start_process(img_name, TD_THRESHOLD=0.6, TSR_THRESHOLD=0.8, padd_top=padd_top, padd_left=padd_left, padd_bottom=padd_bottom, padd_right=padd_right, delta_xmin=0, delta_ymin=0, delta_xmax=0, delta_ymax=0, expand_rowcol_bbox_top=0, expand_rowcol_bbox_bottom=0))
-
-
+        asyncio.run(te.start_process(img_name, TD_THRESHOLD=TD_th , TSR_THRESHOLD=TSR_th , padd_top=padd_top, padd_left=padd_left, padd_bottom=padd_bottom, padd_right=padd_right, delta_xmin=0, delta_ymin=0, delta_xmax=0, delta_ymax=0, expand_rowcol_bbox_top=0, expand_rowcol_bbox_bottom=0))
 
