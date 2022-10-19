@@ -16,7 +16,8 @@ import numpy as np
 # from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 # from cv2 import dnn_superres
 from transformers import DetrFeatureExtractor
-from transformers import DetrForObjectDetection
+#from transformers import DetrForObjectDetection
+from transformers import TableTransformerForObjectDetection
 import torch
 import asyncio
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
@@ -503,4 +504,3 @@ if __name__ == "__main__":
     # for img in image_list:
     if img_name is not None:
         asyncio.run(te.start_process(img_name, TD_THRESHOLD=TD_th , TSR_THRESHOLD=TSR_th , padd_top=padd_top, padd_left=padd_left, padd_bottom=padd_bottom, padd_right=padd_right, delta_xmin=0, delta_ymin=0, delta_xmax=0, delta_ymax=0, expand_rowcol_bbox_top=0, expand_rowcol_bbox_bottom=0))
-
