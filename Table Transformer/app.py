@@ -435,7 +435,7 @@ class TableExtractionPipeline():
         model, probas, bboxes_scaled = table_detector(image, THRESHOLD_PROBA=TD_THRESHOLD)
 
         if bboxes_scaled.nelement() == 0:
-            print('No table found in the pdf-page image'+image_path.split('/')[-1])
+            st.write('No table found in the pdf-page image')
             return ''
         
         # try:
