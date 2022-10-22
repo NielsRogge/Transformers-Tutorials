@@ -8,7 +8,7 @@ can be done as shown in the notebooks found in [this folder](https://github.com/
 The only difference is that the Table Transformer applies a "normalize before" operation, which means that layernorms are applied before,
 rather than after MLPs/attention.
 
-To download Table as a CSV file, theres a [DEMO](https://huggingface.co/spaces/SalML/TableTransformer2CSV) on HuggingFace space based on the Table Transformer+OCR.
+To automatically parse a table and turn it into a CSV file, check out [this demo](https://huggingface.co/spaces/SalML/TableTransformer2CSV) on HuggingFace Spaces based on the Table Transformer + OCR.
 
 
 ![432d09f05f9178c0929729ae27b2928e](https://user-images.githubusercontent.com/31631107/197332016-de9314bc-2159-44bb-9428-ef07c6a96850.png)
