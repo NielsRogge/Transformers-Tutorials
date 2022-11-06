@@ -3,9 +3,13 @@ In this directory, you can find notebooks that illustrate how to use LayoutLMv3 
 
 ## Important note
 
-LayoutLMv3 models are capable of getting > 90% F1 on FUNSD. This is thanks to the use of segment position embeddings, as opposed to word-level position embeddings, inspired by [StructuralLM](https://arxiv.org/abs/2105.11210). This means that words belonging to the same "segment" (let's say, an address) get the same bounding box coordinates, and thus the same 2D position embeddings. You can see [here](https://huggingface.co/datasets/nielsr/funsd-layoutlmv3/blob/main/funsd-layoutlmv3.py#L140) how the authors did this for the FUNSD dataset.
+LayoutLMv3 models are capable of getting > 90% F1 on FUNSD. This is thanks to the use of segment position embeddings, as opposed to word-level position embeddings, inspired by [StructuralLM](https://arxiv.org/abs/2105.11210). This means that words belonging to the same "segment" (let's say, an address) get the same bounding box coordinates, and thus the same 2D position embeddings. 
 
-So it's always advised to use segment position embeddings over word-level position embeddings.
+Most OCR engines (like Google's Tesseract) are able to identify segments as explained in [this thread](https://github.com/microsoft/unilm/issues/838) by the LayoutLMv3 author.
+
+For the FUNSD dataset, segments were created based on the labels as seen [here](https://huggingface.co/datasets/nielsr/funsd-layoutlmv3/blob/main/funsd-layoutlmv3.py#L140).
+
+It's always advised to use segment position embeddings over word-level position embeddings, as it gives quite a boost in performance.
 
 ## Training tips
 

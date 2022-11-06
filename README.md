@@ -16,6 +16,9 @@ Currently, it contains the following demos:
   - understanding `BeitForMaskedImageModeling` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BEiT/Understanding_BeitForMaskedImageModeling.ipynb)
 * CANINE ([paper](https://arxiv.org/abs/2103.06874)):
   - fine-tuning `CanineForSequenceClassification` on IMDb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/CANINE/Fine_tune_CANINE_on_IMDb_(movie_review_binary_classification).ipynb)
+* Conditional DETR ([paper](https://arxiv.org/abs/2108.06152)):
+  - performing inference with `ConditionalDetrForObjectDetection` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Conditional%20DETR/Run_inference_with_Conditional_DETR.ipynb)
+  - fine-tuning `ConditionalDetrForObjectDetection` on a custom dataset (balloon) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Conditional%20DETR/Fine_tuning_Conditional_DETR_on_custom_dataset_(balloon).ipynb)
 * ConvNeXT ([paper](https://arxiv.org/abs/2201.03545)):
   - fine-tuning (and performing inference with) `ConvNextForImageClassification` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/ConvNeXT/Fine_tune_ConvNeXT_for_image_classification.ipynb)
 * DINO ([paper](https://arxiv.org/abs/2104.14294)):
@@ -62,6 +65,9 @@ Currently, it contains the following demos:
   - fine-tuning `LayoutLMv2ForQuestionAnswering` on DOCVQA [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutLMv2/DocVQA/Fine_tuning_LayoutLMv2ForQuestionAnswering_on_DocVQA.ipynb)
 * LayoutLMv3 ([paper](https://arxiv.org/abs/2204.08387)): 
   - fine-tuning `LayoutLMv3ForTokenClassification` on the [FUNSD](https://guillaumejaume.github.io/FUNSD/) dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutLMv3/Fine_tune_LayoutLMv3_on_FUNSD_(HuggingFace_Trainer).ipynb)
+* MarkupLM ([paper](https://arxiv.org/abs/2110.08518)):
+  - inference with MarkupLM to perform question answering on web pages [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/MarkupLM/Inference_with_MarkupLM_for_question_answering_on_web_pages.ipynb)
+  - fine-tuning `MarkupLMForTokenClassification` on a toy dataset for NER on web pages [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/MarkupLM/Fine_tune_MarkupLMForTokenClassification_on_a_custom_dataset.ipynb)
 * MaskFormer ([paper](https://arxiv.org/abs/2107.06278)):
   - performing inference with `MaskFormer` (both semantic and panoptic segmentation): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/MaskFormer/maskformer_minimal_example(with_MaskFormerFeatureExtractor).ipynb)
   - fine-tuning `MaskFormer` on a custom dataset for semantic segmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/MaskFormer/Fine_tune_MaskFormer_on_custom_dataset.ipynb)
@@ -102,6 +108,9 @@ Currently, it contains the following demos:
 * YOLOS ([paper](https://arxiv.org/abs/2106.00666)):
   - fine-tuning `YolosForObjectDetection` on a custom dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/YOLOS/Fine_tuning_YOLOS_for_object_detection_on_custom_dataset_(balloon).ipynb)
   - inference with `YolosForObjectDetection` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/YOLOS/YOLOS_minimal_inference_example.ipynb)
+* X-CLIP ([paper](https://arxiv.org/abs/2208.02816)):
+  - performing zero-shot video classification with X-CLIP [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/X-CLIP/Video_text_matching_with_X_CLIP.ipynb)
+  - zero-shot classifying a YouTube video with X-CLIP [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/X-CLIP/Zero_shot_classify_a_YouTube_video_with_X_CLIP.ipynb)
 
 ... more to come! 🤗 
 
@@ -131,6 +140,8 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - TAPEX by Microsoft Research
 - LayoutLMv3 by Microsoft Research
 - VideoMAE by Multimedia Computing Group, Nanjing University
+- X-CLIP by Microsoft Research
+- MarkupLM by Microsoft Research
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
 
