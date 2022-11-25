@@ -14,6 +14,6 @@ the same vocabulary as LayoutLMv3. So it's recommended to use [this notebook](ht
 
 Please always use an OCR engine that can recognize segments, and use the same bounding boxes for all words that make up a segment. This will greatly improve performance.
 
-See this threads for more info:
+See these threads for more info:
 * https://github.com/jpWang/LiLT/issues/28.
 * https://github.com/microsoft/unilm/issues/838
