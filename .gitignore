@@ -9,3 +9,7 @@ model/
 
 # Csv data
 *.csv
+
+# images
+*.jpg
+*.png
