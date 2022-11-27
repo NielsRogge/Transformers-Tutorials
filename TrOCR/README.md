@@ -10,3 +10,5 @@ I also made a notebook that illustrates how to evaluate a TrOCR checkpoint in te
 All models can be found on the [hub](https://huggingface.co/models?search=trocr).
 
 Note that there's also a Gradio demo available for TrOCR, hosted as a HuggingFace Space [here](https://huggingface.co/spaces/nielsr/TrOCR-handwritten).
+
+:)
