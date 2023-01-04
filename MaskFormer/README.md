@@ -4,7 +4,8 @@ In this directory, you can find notebooks that illustrate how to use Meta's [Mas
 
 - performing inference with MaskFormer (both semantic and panoptic segmentation)
 - fine-tuning MaskFormer on a semantic segmentation dataset
-- fine-tuning MaskFormer on an instance segmentation dataset.
+- fine-tuning MaskFormer on an instance segmentation dataset
+- fine-tuning MaskFormer on a panoptic segmentation dataset.
 
 The docs can be found here: https://huggingface.co/docs/transformers/main/en/model_doc/maskformer
 
