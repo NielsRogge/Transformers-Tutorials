@@ -4,7 +4,7 @@ This folder contains several notebooks illustrating how to use DETR for inferenc
 
 * [inference with DetrForObjectDetection on an image](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/DETR/DETR_minimal_example_(with_DetrFeatureExtractor).ipynb)
 * [fine-tuning DetrForObjectDetection on a custom dataset](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/DETR/Fine_tuning_DetrForObjectDetection_on_custom_dataset_(balloon).ipynb)
-* [evaluating DetrForObjectDetection on COCO](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/DETR/Evaluating_DETR_on_COCO_validation_2017.ipynb)
+* [evaluating DetrForObjectDetection on COCO](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/DETR/DETR_minimal_example.ipynb)
 * [inference with DetrForSegmentation on an image](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/DETR/DETR_panoptic_segmentation_minimal_example_(with_DetrFeatureExtractor).ipynb)
 * [fine-tuning DetrForSegmentation on a custom dataset](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/DETR/Fine_tuning_DetrForSegmentation_on_custom_dataset_end_to_end_approach.ipynb)
 
