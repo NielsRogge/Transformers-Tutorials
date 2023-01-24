@@ -9,6 +9,8 @@ NOTE: if you are not familiar with HuggingFace and/or Transformers, I highly rec
 For an overview of the ecosystem of HuggingFace for computer vision (June 2022), refer to [this notebook](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/HuggingFace_vision_ecosystem_overview_(June_2022).ipynb) with corresponding [video](https://www.youtube.com/watch?v=oL-xmufhZM8&t=2884s).
 
 Currently, it contains the following demos:
+* Audio Spectrogram Transformer ([paper](https://arxiv.org/abs/2104.01778)): 
+  - performing inference with `ASTForAudioClassification` to classify audio. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/AST/Inference_with_the_Audio_Spectogram_Transformer_to_classify_audio.ipynb)
 * BERT ([paper](https://arxiv.org/abs/1810.04805)): 
   - fine-tuning `BertForTokenClassification` on a named entity recognition (NER) dataset. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb)
   - fine-tuning `BertForSequenceClassification` for multi-label text classification. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb)
@@ -16,6 +18,8 @@ Currently, it contains the following demos:
   - understanding `BeitForMaskedImageModeling` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BEiT/Understanding_BeitForMaskedImageModeling.ipynb)
 * CANINE ([paper](https://arxiv.org/abs/2103.06874)):
   - fine-tuning `CanineForSequenceClassification` on IMDb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/CANINE/Fine_tune_CANINE_on_IMDb_(movie_review_binary_classification).ipynb)
+* CLIPSeg ([paper](https://arxiv.org/abs/2112.10003)):
+  - performing zero-shot image segmentation with `CLIPSeg` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/CLIPSeg/Zero_shot_image_segmentation_with_CLIPSeg.ipynb)
 * Conditional DETR ([paper](https://arxiv.org/abs/2108.06152)):
   - performing inference with `ConditionalDetrForObjectDetection` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Conditional%20DETR/Run_inference_with_Conditional_DETR.ipynb)
   - fine-tuning `ConditionalDetrForObjectDetection` on a custom dataset (balloon) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Conditional%20DETR/Fine_tuning_Conditional_DETR_on_custom_dataset_(balloon).ipynb)
@@ -32,6 +36,8 @@ Currently, it contains the following demos:
 * DPT ([paper](https://arxiv.org/abs/2103.13413)):
   - performing inference with DPT for monocular depth estimation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DPT/DPT_inference_notebook_(depth_estimation).ipynb)
   - performing inference with DPT for semantic segmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DPT/DPT_inference_notebook_(semantic_segmentation).ipynb)
+* Deformable DETR ([paper](https://arxiv.org/abs/2010.04159)):
+  - performing inference with `DeformableDetrForObjectDetection` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Deformable-DETR/Inference_with_Deformable_DETR_(CPU).ipynb)
 * DiT ([paper](https://arxiv.org/abs/2203.02378)):
   - performing inference with DiT for document image classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/DiT/Inference_with_DiT_(Document_Image_Transformer)_for_document_image_classification.ipynb)
 * Donut ([paper](https://arxiv.org/abs/2111.15664)):
@@ -40,6 +46,9 @@ Currently, it contains the following demos:
   - performing inference with Donut for document visual question answering (DocVQA) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Donut/DocVQA/Quick_inference_with_DONUT_for_DocVQA.ipynb)
   - performing inference with Donut for document parsing [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Donut/CORD/Quick_inference_with_DONUT_for_Document_Parsing.ipynb)
   - fine-tuning Donut for document parsing with PyTorch Lightning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Donut/CORD/Fine_tune_Donut_on_a_custom_dataset_(CORD)_with_PyTorch_Lightning.ipynb)
+* GIT ([paper](https://arxiv.org/abs/2205.14100)):
+  - performing inference with GIT for image/video captioning and image/video question-answering [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GIT/Inference_with_GIT_for_image_video_captioning_and_image_video_QA.ipynb)
+  - fine-tuning GIT on a custom image captioning dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GIT/Fine_tune_GIT_on_an_image_captioning_dataset.ipynb)
 * GLPN ([paper](https://arxiv.org/abs/2201.07436)):
   - performing inference with `GLPNForDepthEstimation` to illustrate monocular depth estimation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/GLPN/GLPN_inference_(depth_estimation).ipynb)
 * GPT-J-6B ([repository](https://github.com/kingoflolz/mesh-transformer-jax)):
@@ -65,6 +74,9 @@ Currently, it contains the following demos:
   - fine-tuning `LayoutLMv2ForQuestionAnswering` on DOCVQA [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutLMv2/DocVQA/Fine_tuning_LayoutLMv2ForQuestionAnswering_on_DocVQA.ipynb)
 * LayoutLMv3 ([paper](https://arxiv.org/abs/2204.08387)): 
   - fine-tuning `LayoutLMv3ForTokenClassification` on the [FUNSD](https://guillaumejaume.github.io/FUNSD/) dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutLMv3/Fine_tune_LayoutLMv3_on_FUNSD_(HuggingFace_Trainer).ipynb)
+* LayoutXLM ([paper](https://arxiv.org/abs/2104.08836)): 
+  - fine-tuning LayoutXLM on the [XFUND](https://github.com/doc-analysis/XFUND) benchmark for token classification [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutXLM/Fine_tuning_LayoutXLM_on_XFUND_for_token_classification_using_HuggingFace_Trainer.ipynb)
+  - fine-tuning LayoutXLM on the [XFUND](https://github.com/doc-analysis/XFUND) benchmark for relation extraction [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/LayoutXLM/Fine_tune_LayoutXLM_on_XFUND_(relation_extraction).ipynb)
 * MarkupLM ([paper](https://arxiv.org/abs/2110.08518)):
   - inference with MarkupLM to perform question answering on web pages [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/MarkupLM/Inference_with_MarkupLM_for_question_answering_on_web_pages.ipynb)
   - fine-tuning `MarkupLMForTokenClassification` on a toy dataset for NER on web pages [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/MarkupLM/Fine_tune_MarkupLMForTokenClassification_on_a_custom_dataset.ipynb)
