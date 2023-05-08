@@ -1,6 +1,9 @@
 # SAM notebooks
 
-This folder contains demo notebooks to fine-tune Meta AI's [SAM](https://huggingface.co/docs/transformers/main/en/model_doc/sam) (segment anything model) on custom data + inference.
+This folder contains demo notebooks regarding Meta AI's [SAM](https://huggingface.co/docs/transformers/main/en/model_doc/sam) (segment anything model):
+
+- [fine-tuning SAM on custom data](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/SAM/Fine_tune_SAM_(segment_anything)_on_a_custom_dataset.ipynb)
+- [performing inference with MedSAM](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/SAM/Run_inference_with_MedSAM_using_HuggingFace_Transformers.ipynb)
 
 Check also the official Hugging Face notebooks for [general usage](https://github.com/huggingface/notebooks/blob/main/examples/segment_anything.ipynb) and [automatic mask generation](https://github.com/huggingface/notebooks/blob/main/examples/automatic_mask_generation.ipynb).
 
