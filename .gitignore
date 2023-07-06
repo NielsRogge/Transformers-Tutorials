@@ -8,4 +8,4 @@ env/
 model/
 
 # Csv data
-*.csv
+*.csv.DS_Store
