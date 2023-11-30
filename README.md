@@ -102,6 +102,8 @@ Currently, it contains the following demos:
 * T5 ([paper](https://arxiv.org/abs/1910.10683)):
   - fine-tuning `T5ForConditionalGeneration` on a Dutch summarization dataset on TPU using HuggingFace Accelerate [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/tree/master/T5)
   - fine-tuning `T5ForConditionalGeneration` (CodeT5) for Ruby code summarization using PyTorch Lightning [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/T5/Fine_tune_CodeT5_for_generating_docstrings_from_Ruby_code.ipynb)
+* Table Transformer ([paper](https://arxiv.org/abs/2110.00061)):
+  - detects table and recognizes table structure on image with table [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Table%20Transformer/Using_Table_Transformer_for_table_detection_and_table_structure_recognition.ipynb)
 * TAPAS ([paper](https://arxiv.org/abs/2004.02349)):  
   - fine-tuning `TapasForQuestionAnswering` on the Microsoft [Sequential Question Answering (SQA)](https://www.microsoft.com/en-us/download/details.aspx?id=54253) dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TAPAS/Fine_tuning_TapasForQuestionAnswering_on_SQA.ipynb)
   - evaluating `TapasForSequenceClassification` on the [Table Fact Checking (TabFact)](https://tabfact.github.io/) dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/TAPAS/Evaluating_TAPAS_on_the_Tabfact_test_set.ipynb)
@@ -135,6 +137,7 @@ Currently, it contains the following demos:
   - fine-tuning `YolosForObjectDetection` on a custom dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/YOLOS/Fine_tuning_YOLOS_for_object_detection_on_custom_dataset_(balloon).ipynb)
   - inference with `YolosForObjectDetection` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/YOLOS/YOLOS_minimal_inference_example.ipynb)
 
+
 ... more to come! 🤗 
 
 If you have any questions regarding these demos, feel free to open an issue on this repository.
@@ -165,6 +168,7 @@ Btw, I was also the main contributor to add the following algorithms to the libr
 - VideoMAE by Multimedia Computing Group, Nanjing University
 - X-CLIP by Microsoft Research
 - MarkupLM by Microsoft Research
+- Table Transformer by Microsoft Research
 
 All of them were an incredible learning experience. I can recommend anyone to contribute an AI algorithm to the library!
 
