@@ -10,3 +10,7 @@ I also made a notebook that illustrates how to evaluate a TrOCR checkpoint in te
 All models can be found on the [hub](https://huggingface.co/models?search=trocr).
 
 Note that there's also a Gradio demo available for TrOCR, hosted as a HuggingFace Space [here](https://huggingface.co/spaces/nielsr/TrOCR-handwritten).
+
+## Cool blog post
+
+There's a nice blog post on reducing the character error rate (CER) by training TrOCR with a margin loss instead of the cross-entropy loss: https://blog.doxray.com/p/generative-trocr-models-calibration.
