@@ -12,3 +12,9 @@ One can either update all the parameters of the model (full fine-tuning), or lev
 BLIP-2 can be used to caption images, answer questions related to images, or even chat in a conversational manner similar to Deepmind's [Flamingo](https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model).
 
 BLIP-2 even beats Flamingo on several benchmarks, despite being a lot smaller, leveraging open-source large language models like [OPT](https://huggingface.co/docs/transformers/model_doc/opt) and [Flan-T5](https://huggingface.co/docs/transformers/model_doc/flan-t5).
+
+# Deployment
+
+To deploy BLIP-2, here are some useful resources:
+
+- deploying BLIP-2 on Amazon SageMaker: https://github.com/aws-samples/amazon-sagemaker-genai-content-moderation/blob/main/blip2-sagemaker.ipynb.
