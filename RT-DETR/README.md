@@ -1,6 +1,6 @@
 # RT-DETR
 
-# RT-DETR notebooks
+## Notebooks
 
 This folder contains notebooks regarding RT-DETR, a powerful Transformer-based model for fast object detection.
 
