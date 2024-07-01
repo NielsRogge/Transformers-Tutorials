@@ -1,8 +1,6 @@
 # RT-DETR notebooks
 
-This folder contains notebooks regarding RT-DETR, a powerful Transformer-based model for fast object detection.
-
-- RT-DETR [docs](https://huggingface.co/docs/transformers/main/en/model_doc/rt_detr)
+This folder contains notebooks regarding [RT-DETR](https://huggingface.co/docs/transformers/main/en/model_doc/rt_detr), a powerful Transformer-based model for fast object detection.
 
 ## Notes
 
