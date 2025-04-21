@@ -298,3 +298,16 @@ for epoch in range(epochs):
 - [PyTorch Lightning (PL)](https://www.pytorchlightning.ai/). PyTorch Lightning is a framework that automates the training loop written above, by abstracting it away in a Trainer object. Users don't need to write the training loop themselves anymore, instead they can just do `trainer = Trainer()` and then `trainer.fit(model)`. The advantage is that you can start training models very quickly (hence the name lightning), as all training-related code is handled by the `Trainer` object. The disadvantage is that it may be more difficult to debug your model, as the training and evaluation is now abstracted away.
 - [HuggingFace Trainer](https://huggingface.co/transformers/main_classes/trainer.html). The HuggingFace Trainer API can be seen as a framework similar to PyTorch Lightning in the sense that it also abstracts the training away using a Trainer object. However, contrary to PyTorch Lightning, it is not meant not be a general framework. Rather, it is made especially for fine-tuning Transformer-based models available in the HuggingFace Transformers library. The Trainer also has an extension called `Seq2SeqTrainer` for encoder-decoder models, such as BART, T5 and the `EncoderDecoderModel` classes. Note that all [PyTorch example scripts](https://github.com/huggingface/transformers/tree/master/examples/pytorch) of the Transformers library make use of the Trainer.
 - [HuggingFace Accelerate](https://github.com/huggingface/accelerate): Accelerate is a new project, that is made for people who still want to write their own training loop (as shown above), but would like to make it work automatically irregardless of the hardware (i.e. multiple GPUs, TPU pods, mixed precision, etc.).
+
+## Citation
+
+Feel free to cite me when you use some of my tutorials :)
+
+```bibtex
+@misc{rogge2025transformerstutorials,
+  author = {Rogge, Niels},
+  title = {Tutorials},
+  url = {[https://github.com/NielsRogge/tutorials](https://github.com/NielsRogge/Transformers-Tutorials)},
+  year = {2025}
+}
+```
