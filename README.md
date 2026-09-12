@@ -11,7 +11,7 @@ For an overview of the ecosystem of HuggingFace for computer vision (June 2022),
 Currently, it contains the following demos:
 * Audio Spectrogram Transformer ([paper](https://arxiv.org/abs/2104.01778)): 
   - performing inference with `ASTForAudioClassification` to classify audio. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/AST/Inference_with_the_Audio_Spectogram_Transformer_to_classify_audio.ipynb)
-* BERT ([paper](https://arxiv.org/abs/1810.04805)): 
+* BERT ([paper](https://arxiv.org/abs/1810.04805), [read online](https://webeditions.page/works/bert-pre-training/)):
   - fine-tuning `BertForTokenClassification` on a named entity recognition (NER) dataset. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Custom_Named_Entity_Recognition_with_BERT_only_first_wordpiece.ipynb)
   - fine-tuning `BertForSequenceClassification` for multi-label text classification. [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/BERT/Fine_tuning_BERT_(and_friends)_for_multi_label_text_classification.ipynb)
 * BEiT ([paper]([https://arxiv.org/abs/2103.06874](https://arxiv.org/abs/2106.08254))):
