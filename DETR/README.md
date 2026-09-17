@@ -10,4 +10,6 @@ This folder contains several notebooks illustrating how to use DETR for inferenc
 
 All DETR checkpoints can be found on the [hub](https://huggingface.co/models?other=detr).
 
+These notebooks use `DetrImageProcessor` (the replacement for `DetrFeatureExtractor`).
+
 Update: we now also support [Deformable DETR](https://huggingface.co/docs/transformers/main/en/model_doc/deformable_detr), which improves upon the original DETR in terms of convergence.
